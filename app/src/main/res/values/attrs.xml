@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleHeadImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TopBarView">
+        <attr name="bar_back_img_isshow" format="boolean"/>
+        <attr name="bar_back_img" format="reference"/>
+        <attr name="bar_back_text" format="string"/>
+        <attr name="bar_height_back" format="dimension"/>
+        <attr name="bar_width_back" format="dimension"/>
+        <attr name="bar_size_back" format="dimension"/>
+
+        <attr name="bar_submit_img_isshow" format="boolean"/>
+        <attr name="bar_submit_img" format="reference"/>
+        <attr name="bar_submit_text" format="string"/>
+        <attr name="bar_height_submit" format="dimension"/>
+        <attr name="bar_width_submit" format="dimension"/>
+        <attr name="bar_size_submit" format="dimension"/>
+
+        <attr name="bar_title" format="string"/>
+        <attr name="bar_size_title" format="dimension"/>
+    </declare-styleable>
+</resources>

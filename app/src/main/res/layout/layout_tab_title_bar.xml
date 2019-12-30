@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/appColor"
+    android:orientation="horizontal">
+
+    <com.dly.frame.ui.widget.CircleHeadImageView
+        android:id="@+id/bar_back_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_sacrifice" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/tab_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tab_title_left"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_tab_right"
+                android:button="@null"
+                android:gravity="center"
+                android:text="路线"
+                android:textColor="@drawable/selector_tab_text_color" />
+
+            <RadioButton
+                android:id="@+id/tab_title_right"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_tab_left"
+                android:button="@null"
+                android:gravity="center"
+                android:text="单点"
+                android:textColor="@drawable/selector_tab_text_color" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</RelativeLayout>

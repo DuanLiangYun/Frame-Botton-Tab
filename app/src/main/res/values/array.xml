@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titleArr">
+        <item>地图</item>
+        <item>详情</item>
+        <item>个人中心</item>
+    </string-array>
+    <string-array name="mainTabArr">
+        <item>地图</item>
+        <item>列表</item>
+        <item>我的</item>
+    </string-array>
+</resources>

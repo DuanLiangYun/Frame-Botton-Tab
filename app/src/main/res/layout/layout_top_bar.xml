@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appColor"
+    android:orientation="horizontal">
+
+    <com.dly.frame.ui.widget.CircleHeadImageView
+        android:id="@+id/bar_back_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/ic_sacrifice"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/bar_back_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"/>
+    <com.dly.frame.ui.widget.MarqueeTextView
+        android:id="@+id/bar_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/bar_submit_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:visibility="invisible"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/bar_submit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"/>
+
+</LinearLayout>
